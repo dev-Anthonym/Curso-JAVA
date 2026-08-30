@@ -31,7 +31,7 @@ public class exercicio_05 {
 		
 		total = (val1 * qtd1) + (val2 * qtd2);
 		
-		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
+		System.out.printf("VALOR A PAGAR DA PEÇA %d E %d: R$ %.2f%n", cod1, cod2, total);
 		
 		sc.close();
 	}
