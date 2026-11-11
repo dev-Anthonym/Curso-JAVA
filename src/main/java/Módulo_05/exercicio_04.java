@@ -3,28 +3,27 @@ package Módulo_05;
 import java.util.Scanner;
 
 public class exercicio_04 {
-	
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		int hrini, hrfin, duracao;
 		
-		int hrinc, hrfnl, duracao;
+		System.out.println("Que horas começou o jogo?");
+		hrini = sc.nextInt();
+		System.out.println("Que horas terminou o jogo?");
+		hrfin = sc.nextInt();
 		
-		System.out.println("Que horas o jogo começou? ");
-		hrinc = sc.nextInt();
-		System.out.println("Que hora o jogo terminou? ");
-		hrfnl = sc.nextInt();
-		System.out.println();
-		
-		if(hrinc < hrfnl) {
-			duracao = hrfnl - hrinc;
+		if (hrini < hrfin) {
+			duracao = hrfin - hrini;
 		}
 		else {
-			duracao = 24 - hrinc + hrfnl;
+			duracao = 24 - hrini + hrfin;
 		}
 		
-		System.out.println("O jogo teve " + duracao + " horas de duração.");
+		System.out.println("O jogo durou " + duracao + " Hora(s)");
 		
 		sc.close();
 	}
+	
 }

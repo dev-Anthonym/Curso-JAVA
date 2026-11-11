@@ -9,13 +9,13 @@ public class projeto_04 {
 		Scanner sc = new Scanner(System.in);
 		int hora;
 		
-		System.out.println("Quantas horas? ");
+		System.out.println("Quantas horas?");
 		hora = sc.nextInt();
 		
 		if(hora < 12) {
 			System.out.println("Bom dia!");
 		}
-		else if(hora < 18) {
+		else if (hora < 18) {
 			System.out.println("Boa tarde!");
 		}
 		else {
@@ -24,4 +24,5 @@ public class projeto_04 {
 		
 		sc.close();
 	}
+
 }

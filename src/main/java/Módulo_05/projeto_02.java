@@ -16,7 +16,7 @@ public class projeto_02 {
 			System.out.println("Bom dia!");
 		}
 		else {
-			System.out.println("Boa tarde!");
+			System.out.println("Boa tarde");
 		}
 		
 		sc.close();

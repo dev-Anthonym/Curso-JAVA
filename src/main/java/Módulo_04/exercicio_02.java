@@ -19,7 +19,7 @@ public class exercicio_02 {
 		area = pi * (Math.pow(raio, 2));
 		
 		Locale.setDefault(Locale.US);
-		System.out.printf("O vaalor da área da circunferência é %.4f|%n", area);
+		System.out.printf("O valor da área da circunferência é %.4f|%n", area);
 		
 		sc.close();
 	}

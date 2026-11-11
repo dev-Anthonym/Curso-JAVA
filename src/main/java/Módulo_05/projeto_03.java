@@ -16,7 +16,7 @@ public class projeto_03 {
 			System.out.println("Bom dia!");
 		}
 		else {
-			if(hora < 18) {
+			if (hora < 18) {
 				System.out.println("Boa tarde!");
 			}
 			else {
@@ -26,4 +26,5 @@ public class projeto_03 {
 		
 		sc.close();
 	}
+
 }

@@ -1,7 +1,7 @@
 package Módulo_05;
 
 public class projeto_01 {
-	
+
 	public static void main(String[] args) {
 		
 		int x = 5;
